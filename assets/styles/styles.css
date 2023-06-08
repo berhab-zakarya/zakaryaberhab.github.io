@@ -3,7 +3,7 @@
 /*********** Global Styles********/
 
 body, html {
-		background-color: rgb(18, 241, 156);
+		background-color: rgba(255, 103, 68, 0.91)
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fa {
-	font-size: 1.2em;
+	font-size: 3.2em;
 	padding: 0.1em 0.4em;
 	color: #8a8a8a;
 }

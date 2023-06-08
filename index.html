@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1, maximum-scale=1" />
+	<link rel="shortcut icon" type="image/x-icon" href="https://azeezqad.github.io/portfolio/images/icon.png">
 	<title>Portfolio Abdulaziz Qadmor</title>
 	<script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
 	<link rel="stylesheet" href="bower_components/foundation-sites/dist/css/foundation.min.css">
@@ -24,12 +25,6 @@
 </head>
 
 <body>
-	<!-- Watch how to use it on YouTube -->
-	<!-- https://youtu.be/ddLuZXs8Uyw -->
-
-
-	<!-- Watch how to deploy it live -->
-	<!-- https://youtu.be/E1dqffpUlMA -->
 	<div id="app" class="wrapper">
 		
 
@@ -39,7 +34,7 @@
 					<div class="profile-photo" :style="image">
 					</div>
 					<div class="details">
-						<h2>Hi, I'm {{name}}. <br>    I am a Software Engineer<br> <span id="writing-text"><span></h2>
+						<h2>Hi, I'm {{name}}. <br>Software Engineer<br> <span id="writing-text"><span></h2>
 					</div>
 				</div>
 			</div>
@@ -51,9 +46,9 @@
 				</div>
 				<div class="small-12 column">
 					<div class="my-arrow-div text-center">
-						<a :href="Facebook" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
-						<a :href="Linked" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-						<a :href="StackoverFlow" target="_blank"><i class="fa fa-stack-overflow fa-2x"></i></a>
+						<a :href="Linked" target="_blank"><i class="fa fa-linkedin fa-4x"></i></a>
+						<a :href="StackoverFlow" target="_blank"><i class="fa fa-stack-overflow fa-4x"></i></a>
+						<a :href="github" target="_blank"><i class="fa fa-github fa-4x"></i></a> 
 					</div>
 				</div>
 			</div>
@@ -69,50 +64,47 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="small-12 medium-4 columns text-center experience-topics">
+				<div class="small-12 medium-3 columns text-center experience-topics">
 					<i class="fi-laptop"></i>
 					<h3>Development</h3>
 					<ul>
-						<li>Web Deveolpment</li>
-						<li>Vue.js</li>
+						<li>HTML & CSS</li>
 						<li>Javascript</li>
-						<li>Html & Css</li>
+						<li>Git & GitHub</li>
 						<li>Bootstrap</li>
-						<li>Mysql</li>
-						<li>PHP</li>
-						<li>WordPress</li>
-						<li>Android Development</li>
-						<li>Android Studio </li>
-						<li>Java</li>
+						<li>Vue.js</li>
+						<li>Nuxt</li>
+						<li>Ionic</li>
 					</ul>
 				</div>
-				<div class="small-12 medium-4 columns text-center experience-topics">
+				<div class="small-12 medium-6 columns text-center experience-topics">
 					<i class="fi-database"></i>
-					<h3>AI</h3>
+					<h3>Certificates</h3>
 					<ul>
-						<li>Python</li>
-						<li>Deep Learning</li>
-						<li>PyTorch</li>
-						<li>PySpark</li>
-						<li>Microsoft Azure ML</li>
-						<li>AWS Macine learing</li>
-						<li>OpenCv</li>
-						<li>OpenVino</li>
-						<li>IBM Watson</li>
+						<li style="color: #F6A47B;">DP-420: Designing and Implementing Cloud-Native Applications Using Microsoft Azure Cosmos DB (In Progress)</li>
+						<li>Getting Started with Git and GitHub by Coursera (4/2023)</li>
+						<li>Academind Web Development Bootcamp (7/2022)</li>
+						<li>DP-900: Microsoft Azure Data Fundamentals (03/2021)</li>
+						<li>
+							Bachelor of Computer Science (Software engineering) (9/2020)
+						</li>
+						<li>Deep Learning with Pytorch: Zero to GANs by Jovian.ml (07/2020)</li>
+						<li>CCNA Routing and Switching: Introduction to Networks
+							(08/2017)</li>
 					</ul>
 				</div>
-				<div class="small-12 medium-4 columns text-center experience-topics">
+				<div class="small-12 medium-3 columns text-center experience-topics">
 					<i class="fi-star"></i>
 					<h3>Tools & Skills</h3>
 					<ul>
-						<li>GitHub</li>
-						<li>Data Analysis</li>
-						<li>Microsoft Excel</li>
-						<li>Microsoft PowerBi</li>
-						<li>Vs Code</li>
-						<li>Netbeans</li>
-						<li>PyCharm</li>
-						<li>Database</li>
+						<li>VS Code</li>
+						<li>Postman</li>
+						<li>UX & UI using Figma</li>
+						<li>Software & Hardware</li>
+					<li>Microsoft Office 365</li>
+					<li>Microsoft Azure</li>
+					<li>ChatGpt</li>
+					<li>Networking</li>
 					</ul>
 				</div>
 			</div>
@@ -128,7 +120,7 @@
 
 			<div class="row work-row"> <!-- odd -->
 				<div class="small-12 medium-6 medium-push-6 columns">
-					<img src="assets/images/project1.jpg" alt="" width="500px" height="400px">
+					<img src="assets/images/projects3.jpg"  style="object-fit: contain;" alt="" width="500px" height="400px"/>
 				</div>
 				<div class="small-12 medium-5 medium-pull-7 columns">
 					<div class="details details-ftm">
@@ -136,14 +128,15 @@
 						<p class="platform">AI Securrity Camera</p>
 						<p class="icons"><i class="fi-monitor"></i><!--<i class="fi-tablet-portrait"></i><i class="fi-mobile"></i>--></p>
 						<p>GenderLet is a security system which can classify whether the person is Male or Female. To protects the student from any criminal cases.</p>
-						
+						<a href="https://www.youtube.com/watch?v=DiFgG0ytycU" class="button round btn">View video</a>
+				
 				</div>
 				</div>
 			</div>
 
 			<div class="row work-row"> <!-- even -->
 				<div class="small-12 medium-6 columns">
-					<img src="assets/images/project2.JPG" alt="" width="500px" height="400px">
+					<img src="assets/images/project2.JPG" style="object-fit: content;" alt="" width="400" height="299">
 				</div>
 				<div class="small-12 medium-5 medium-offset-1 columns">
 					<div class="details details-ftm">
@@ -157,15 +150,15 @@
 			</div>
 			<div class="row work-row"> <!-- odd -->
 				<div class="small-12 medium-6 medium-push-6 columns">
-					<img src="assets/images/project3.JPG" alt="" width="500px" height="400px"/>
+					<img src="assets/images/project1.jpg"  style="object-fit: contain;" alt="" width="500px" height="400px"/>
 				</div>
 				<div class="small-12 medium-5 medium-pull-7 columns">
 					<div class="details details-ftm">
-						<h3>HelpMeOut</h3>
+						<h3>My memories App using ionic-vue framwork</h3>
 						<p class="platform">Mobile App</p>
 						<p class="icons"><i class="fi-mobile"></i></p>
-						<p>HelpMeOut is an Android mobile app that will connect the clients with mechanical to fix their cars while they are in the road</p>
-						
+						<p>This app is a simple app to save my memories. A title, an image and a description for the memory.</p>
+						<a href="https://www.linkedin.com/posts/abdulaziz-qadmor-51384415a_ionic-supabase-ionicframework-activity-6749324154639646720-xbOc/" class="button round btn">View video</a>
 				</div>
 				</div>
 			</div>
@@ -189,7 +182,7 @@
 			<div class="row text-center">
 				<div class="small-12 medium-6 medium-offset-3 columns">
 					<p id="logo">AZ</p>
-					<p id="copyright">Copyright &copy; 2020 | Abdulaziz Qadmor</p>
+					<p id="copyright">Copyright &copy; 2023 | Abdulaziz Qadmor</p>
 				</div>
 			</div>
 		</footer>
@@ -208,8 +201,8 @@
 				name: "	Abdulaziz Qadmor",
 				image: "background-image: url(assets/images/profile.jpg);",
 				email: "mailto:azizqadmor@gmail.com",
-				Facebook: "https://www.facebook.com/azeez.gadmour",
 				Linked: "https://www.linkedin.com/in/abdulaziz-qadmor-51384415a/",
+				github: "https://github.com/azeezqad",
 				StackoverFlow: "https://stackoverflow.com/users/12937086/abdulaziz-noredin-qadmor"
 
 			
