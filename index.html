@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1, maximum-scale=1" />
 	<link rel="shortcut icon" type="image/x-icon" href="https://azeezqad.github.io/portfolio/images/icon.png">
-	<title>Portfolio Abdulaziz Qadmor</title>
+	<title>Portfolio Berhab Zakarya</title>
 	<script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
 	<link rel="stylesheet" href="bower_components/foundation-sites/dist/css/foundation.min.css">
 	<link rel="stylesheet" href="">
@@ -23,18 +22,18 @@
 	<link rel="stylesheet" href="assets/fonts/foundation-icons/foundation-icons.css">
 	<link rel="stylesheet" href="assets/styles/styles.css">
 </head>
-
 <body>
 	<div id="app" class="wrapper">
-		
 
+		<!-- Satrt About me section -->
 		<section id="about">
 			<div class="row">
 				<div class="small-12 large-8 large-offset-2 columns text-center">
 					<div class="profile-photo" :style="image">
 					</div>
 					<div class="details">
-						<h2>Hi, I'm {{name}}. <br>Software Engineer<br> <span id="writing-text"><span></h2>
+						<h2>Hi, I'm {{name}}. <br><span class="title">Android & Desktop applications
+								Developer</span><br> <span id="writing-text"><span></h2>
 					</div>
 				</div>
 			</div>
@@ -46,18 +45,17 @@
 				</div>
 				<div class="small-12 column">
 					<div class="my-arrow-div text-center">
+						<a :href="facebook" target="_blank"><i class="fa fa-facebook fa-4x"></i></a>
+						<a :href="instagram" target="_blank"><i class="fa fa-instagram fa-4x"></i></a>
+						<a :href="github" target="_blank"><i class="fa fa-github fa-4x"></i></a>
 						<a :href="Linked" target="_blank"><i class="fa fa-linkedin fa-4x"></i></a>
-						<a :href="StackoverFlow" target="_blank"><i class="fa fa-stack-overflow fa-4x"></i></a>
-						<a :href="github" target="_blank"><i class="fa fa-github fa-4x"></i></a> 
 					</div>
 				</div>
 			</div>
-
 		</section>
-
-
+		<!-- End About me section -->
+		<!-- Start Experience Section -->
 		<section id="experience">
-
 			<div class="row column">
 				<div class="small-12">
 					<h2 class="text-center">My Experience</h2>
@@ -68,103 +66,747 @@
 					<i class="fi-laptop"></i>
 					<h3>Development</h3>
 					<ul>
-						<li>HTML & CSS</li>
-						<li>Javascript</li>
-						<li>Git & GitHub</li>
-						<li>Bootstrap</li>
-						<li>Vue.js</li>
-						<li>Nuxt</li>
-						<li>Ionic</li>
+						<li>Java</li>
+						<li>Kotlin</li>
+						<li>Dart</li>
+						<li>Flutter</li>
+						<li>Xml</li>
+						<li>Python</li>
+						<li>API</li>
 					</ul>
 				</div>
 				<div class="small-12 medium-6 columns text-center experience-topics">
 					<i class="fi-database"></i>
-					<h3>Certificates</h3>
+					<h3>Education & Work</h3>
 					<ul>
-						<li style="color: #F6A47B;">DP-420: Designing and Implementing Cloud-Native Applications Using Microsoft Azure Cosmos DB (In Progress)</li>
-						<li>Getting Started with Git and GitHub by Coursera (4/2023)</li>
-						<li>Academind Web Development Bootcamp (7/2022)</li>
-						<li>DP-900: Microsoft Azure Data Fundamentals (03/2021)</li>
-						<li>
-							Bachelor of Computer Science (Software engineering) (9/2020)
-						</li>
-						<li>Deep Learning with Pytorch: Zero to GANs by Jovian.ml (07/2020)</li>
-						<li>CCNA Routing and Switching: Introduction to Networks
-							(08/2017)</li>
+						<li>Abou Bekr Belkaid University of Tlemcen Bachelor's degree Informatics <span
+								class="date">(2021-present)</span></li>
+						<li>Android Kotlin Developer Nanodegree <span class="date">(2019-2020)</span></li>
+						<li>Freelance App Developer on Upwork <span class="date">(2019-present)</span></li>
 					</ul>
 				</div>
 				<div class="small-12 medium-3 columns text-center experience-topics">
 					<i class="fi-star"></i>
 					<h3>Tools & Skills</h3>
 					<ul>
+						<li>Android Studio</li>
+						<li>Firebase</li>
+						<li>Android Jetpack Libraries</li>
+						<li>Android SDK</li>
+						<li>Sqlite</li>
 						<li>VS Code</li>
 						<li>Postman</li>
-						<li>UX & UI using Figma</li>
-						<li>Software & Hardware</li>
-					<li>Microsoft Office 365</li>
-					<li>Microsoft Azure</li>
-					<li>ChatGpt</li>
-					<li>Networking</li>
 					</ul>
 				</div>
 			</div>
-
 		</section>
-
+		<!--End Experience Section -->
+		<!--Start Work Section -->
 		<section id="work">
-			<h2 class="text-center">Work</h2>
+			<h2 class="text-center">Projects</h2>
 			<div class="row">
 				<p class="text-center tag-line">Here are few of my Projects.</p>
 			</div>
-
-
 			<div class="row work-row"> <!-- odd -->
 				<div class="small-12 medium-6 medium-push-6 columns">
-					<img src="assets/images/projects3.jpg"  style="object-fit: contain;" alt="" width="500px" height="400px"/>
+					<div class="slideshow-container">
+
+						<div class="mySlides fade">
+							<div class="numbertext">1 / 5</div>
+							<img src="./assets/images/MBTI1.png" style="width:100%">
+						</div>
+						<div class="mySlides fade">
+							<div class="numbertext">2 / 5</div>
+							<img src="./assets/images/MBTI2.png" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;
+						">
+						</div>
+						<div class="mySlides fade">
+							<div class="numbertext">3 / 5</div>
+							<img src="./assets/images/MBTI3.png" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;
+						">
+						</div>
+						<div class="mySlides fade">
+							<div class="numbertext">4 / 5</div>
+							<img src="./assets/images/MBTI4.png" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides fade">
+							<div class="numbertext">5 / 5</div>
+							<img src="./assets/images/MBTI5.png" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<a class="prev" onclick="plusSlides(-1)">❮</a>
+						<a class="next" onclick="plusSlides(1)">❯</a>
+					</div>
+					<br>
+
+					<div style="text-align:center">
+						<span class="dot" onclick="currentSlide(1)"></span>
+						<span class="dot" onclick="currentSlide(2)"></span>
+						<span class="dot" onclick="currentSlide(3)"></span>
+						<span class="dot" onclick="currentSlide(4)"></span>
+						<span class="dot" onclick="currentSlide(5)"></span>
+					</div>
+
 				</div>
 				<div class="small-12 medium-5 medium-pull-7 columns">
 					<div class="details details-ftm">
-						<h3>GenderLet</h3>
-						<p class="platform">AI Securrity Camera</p>
-						<p class="icons"><i class="fi-monitor"></i><!--<i class="fi-tablet-portrait"></i><i class="fi-mobile"></i>--></p>
-						<p>GenderLet is a security system which can classify whether the person is Male or Female. To protects the student from any criminal cases.</p>
-						<a href="https://www.youtube.com/watch?v=DiFgG0ytycU" class="button round btn">View video</a>
-				
-				</div>
-				</div>
-			</div>
+						<h3>MBTI World Application</h3>
+						<p class="platform">Technolgies : MVVM, Java, Android Firebase, API's, Android SDK , Xml</p>
+						<p class="icons"><i
+								class="fi-mobile"></i><!--<i class="fi-tablet-portrait"></i><i class="fi-mobile"></i>-->
+						</p>
+						<p>Myers-Briggs Type Indicator World Social networking application for different types of
+							personalities LOGO : mix between " M " and " W " MBTI World Application : Myers-Briggs Type
+							Indicators Social networking application for different types of personalities Features of
+							the application : ✅ Three types of profile : ( Bronze , Silver and Gold ) ✅ Each type has a
+							specific forum ( 16 types ) ✅ Creator studio for editing images ✅ Possibility of creating
+							tweets and memes ... And lot of surprises.</p>
+						<a href="https://play.google.com/store/apps/details?id=com.mbti.world" target="_blank"
+							class="button round btn">View App</a>
 
-			<div class="row work-row"> <!-- even -->
-				<div class="small-12 medium-6 columns">
-					<img src="assets/images/project2.JPG" style="object-fit: content;" alt="" width="400" height="299">
-				</div>
-				<div class="small-12 medium-5 medium-offset-1 columns">
-					<div class="details details-ftm">
-						<h3>Starbuks Google map</h3>
-						<p class="platform">Web</p>
-						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
-						<p> This project was just to test my skills in Javascript and to improve my skills I had to build this project to search & find the nearest Starbucks in the map.</p>
-						
 					</div>
 				</div>
 			</div>
-			<div class="row work-row"> <!-- odd -->
+			<hr>
+			<div class="row work-row"> <!-- even slide 2 -->
+				<div class="small-12 medium-6 columns">
+					<div class="slideshow-container">
+
+						<div class="mySlides2 fade">
+							<div class="numbertext">1 / 17</div>
+							<img src="./assets/images/artisans1.png" style="width:100% ;
+						  height: 500px;
+						  object-fit: contain;">
+						</div>
+						<div class="mySlides2 fade">
+							<div class="numbertext">2 / 17</div>
+							<img src="./assets/images/artisans2.png" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;
+						">
+						</div>
+						<div class="mySlides2 fade">
+							<div class="numbertext">3 / 17</div>
+							<img src="./assets/images/artisans3.png" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;
+						">
+						</div>
+						<div class="mySlides2 fade">
+							<div class="numbertext">4 / 17</div>
+							<img src="./assets/images/artisans4.png" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides2 fade">
+							<div class="numbertext">5 / 17</div>
+							<img src="./assets/images/artisans5.png" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides2 fade">
+							<div class="numbertext">6 / 17</div>
+							<img src="./assets/images/artisans6.png" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides2 fade">
+							<div class="numbertext">7 / 17</div>
+							<img src="./assets/images/artisans7.png" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides2 fade">
+							<div class="numbertext">8 / 17</div>
+							<img src="./assets/images/artisans8.png" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides2 fade">
+							<div class="numbertext">9 / 17</div>
+							<img src="./assets/images/artisans9.png" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides2 fade">
+							<div class="numbertext">10 / 17</div>
+							<img src="./assets/images/artisans10.png" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides2 fade">
+							<div class="numbertext">11 / 17</div>
+							<img src="./assets/images/artisans11.png" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides2 fade">
+							<div class="numbertext">12 / 17</div>
+							<img src="./assets/images/artisans12.png" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides2 fade">
+							<div class="numbertext">13 / 17</div>
+							<img src="./assets/images/artisans13.png" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides2 fade">
+							<div class="numbertext">14 / 17</div>
+							<img src="./assets/images/artisans14.png" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides2 fade">
+							<div class="numbertext">15 / 17</div>
+							<img src="./assets/images/artisans15.png" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides2 fade">
+							<div class="numbertext">16 / 17</div>
+							<img src="./assets/images/artisans16.png" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides2 fade">
+							<div class="numbertext">17 / 17</div>
+							<img src="./assets/images/artisans17.png" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<a class="prev" onclick="plusSlides2(-1)">❮</a>
+						<a class="next" onclick="plusSlides2(1)">❯</a>
+					</div>
+					<br>
+
+					<div style="text-align:center">
+						<span class="dot2" onclick="currentSlide2(1)"></span>
+						<span class="dot2" onclick="currentSlide2(2)"></span>
+						<span class="dot2" onclick="currentSlide2(3)"></span>
+						<span class="dot2" onclick="currentSlide2(4)"></span>
+						<span class="dot2" onclick="currentSlide2(5)"></span>
+						<span class="dot2" onclick="currentSlide2(6)"></span>
+						<span class="dot2" onclick="currentSlide2(7)"></span>
+						<span class="dot2" onclick="currentSlide2(8)"></span>
+						<span class="dot2" onclick="currentSlide2(9)"></span>
+						<span class="dot2" onclick="currentSlide2(10)"></span>
+						<span class="dot2" onclick="currentSlide2(11)"></span>
+						<span class="dot2" onclick="currentSlide2(12)"></span>
+						<span class="dot2" onclick="currentSlide2(13)"></span>
+						<span class="dot2" onclick="currentSlide2(14)"></span>
+						<span class="dot2" onclick="currentSlide2(15)"></span>
+						<span class="dot2" onclick="currentSlide2(16)"></span>
+						<span class="dot2" onclick="currentSlide2(17)"></span>
+					</div>
+
+
+				</div>
+				<div class="small-12 medium-5 medium-offset-1 columns">
+					<div class="details details-ftm">
+						<h3>Artisans Application</h3>
+						<p class="platform">Technolgies : Android SDK , Kotlin, Xml, Firebase, MVVM</p>
+						<p class="icons"><i class="fi-mobile"></i></p>
+						<p>Peace be upon you 🌷 Artisans app for craftsmen Any craftsman can search for suitable offers
+							for him. The customer can search for craftsmen and place job offers.</p>
+						<a href="https://github.com/berhab-zakarya/Berhab-Zakarya-Portfolio" target="_blank"
+							class="button round btn">View App</a>
+
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row work-row"> <!-- odd slid 3 -->
 				<div class="small-12 medium-6 medium-push-6 columns">
-					<img src="assets/images/project1.jpg"  style="object-fit: contain;" alt="" width="500px" height="400px"/>
+					<div class="slideshow-container">
+
+						<div class="mySlides3 fade">
+							<div class="numbertext">1 / 18</div>
+							<img src="./assets/images/1.jpg" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;">
+						</div>
+						<div class="mySlides3 fade">
+							<div class="numbertext">2 / 18</div>
+							<img src="./assets/images/2.jpg" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;
+						">
+						</div>
+						<div class="mySlides3 fade">
+							<div class="numbertext">3 / 18</div>
+							<img src="./assets/images/3.jpg" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;
+						">
+						</div>
+						<div class="mySlides3 fade">
+							<div class="numbertext">4 / 18</div>
+							<img src="./assets/images/4.jpg" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides3 fade">
+							<div class="numbertext">5 / 18</div>
+							<img src="./assets/images/5.jpg" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides3 fade">
+							<div class="numbertext">6 / 18</div>
+							<img src="./assets/images/6.jpg" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides3 fade">
+							<div class="numbertext">7 / 18</div>
+							<img src="./assets/images/7.jpg" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides3 fade">
+							<div class="numbertext">8 / 18</div>
+							<img src="./assets/images/8.jpg" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides3 fade">
+							<div class="numbertext">9 / 18</div>
+							<img src="./assets/images/9.jpg" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides3 fade">
+							<div class="numbertext">10 / 18</div>
+							<img src="./assets/images/10.jpg" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides3 fade">
+							<div class="numbertext">11 / 18</div>
+							<img src="./assets/images/11.jpg" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides3 fade">
+							<div class="numbertext">12 / 18</div>
+							<img src="./assets/images/12.jpg" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides3 fade">
+							<div class="numbertext">13 / 18</div>
+							<img src="./assets/images/13.jpg" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+
+						<div class="mySlides3 fade">
+							<div class="numbertext">14 / 18</div>
+							<img src="./assets/images/14.jpg" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides3 fade">
+							<div class="numbertext">15 / 18</div>
+							<img src="./assets/images/15.jpg" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides3 fade">
+							<div class="numbertext">16 / 18</div>
+							<img src="./assets/images/16.jpg" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides3 fade">
+							<div class="numbertext">17 / 18</div>
+							<img src="./assets/images/17.jpg" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<div class="mySlides3 fade">
+							<div class="numbertext">18 / 18</div>
+							<img src="./assets/images/18.jpg" style=" width: 100%;
+							height: 500px;
+							object-fit: contain;
+						  ">
+						</div>
+						<a class="prev" onclick="plusSlides3(-1)">❮</a>
+						<a class="next" onclick="plusSlides3(1)">❯</a>
+					</div>
+					<br>
+
+					<div style="text-align:center">
+						<span class="dot3" onclick="currentSlide3(1)"></span>
+						<span class="dot3" onclick="currentSlide3(2)"></span>
+						<span class="dot3" onclick="currentSlide3(3)"></span>
+						<span class="dot3" onclick="currentSlide3(4)"></span>
+						<span class="dot3" onclick="currentSlide3(5)"></span>
+						<span class="dot3" onclick="currentSlide3(6)"></span>
+						<span class="dot3" onclick="currentSlide3(7)"></span>
+						<span class="dot3" onclick="currentSlide3(8)"></span>
+						<span class="dot3" onclick="currentSlide3(9)"></span>
+						<span class="dot3" onclick="currentSlide3(10)"></span>
+						<span class="dot3" onclick="currentSlide3(11)"></span>
+						<span class="dot3" onclick="currentSlide3(12)"></span>
+						<span class="dot3" onclick="currentSlide3(13)"></span>
+						<span class="dot3" onclick="currentSlide3(14)"></span>
+						<span class="dot3" onclick="currentSlide3(15)"></span>
+						<span class="dot3" onclick="currentSlide3(16)"></span>
+						<span class="dot3" onclick="currentSlide3(17)"></span>
+						<span class="dot3" onclick="currentSlide3(18)"></span>
+					</div>
+
 				</div>
 				<div class="small-12 medium-5 medium-pull-7 columns">
 					<div class="details details-ftm">
-						<h3>My memories App using ionic-vue framwork</h3>
-						<p class="platform">Mobile App</p>
-						<p class="icons"><i class="fi-mobile"></i></p>
-						<p>This app is a simple app to save my memories. A title, an image and a description for the memory.</p>
-						<a href="https://www.linkedin.com/posts/abdulaziz-qadmor-51384415a_ionic-supabase-ionicframework-activity-6749324154639646720-xbOc/" class="button round btn">View video</a>
+						<h3>I Wright Go (For English Student)</h3>
+						<p class="platform">Technolgies : Android SDK , Kotlin, Xml, Firebase, MVVM</p>
+						<p class="icons"><i
+								class="fi-mobile"></i><!--<i class="fi-tablet-portrait"></i><i class="fi-mobile"></i>-->
+						</p>
+						<p>iWrightGo app In four sections: <b>iWriting Class:</b> a virtual platform where the teacher
+							and students can share any sort of files or links to extend their writing classes outside
+							the formal classroom. <b>iSentence Writing:</b> a further source of understanding that
+							encompasses all the lessons associated with sentence writing in English. Those are related
+							to grammar, capitalization, punctuation, style, spelling of words (Orthography) and
+							vocabulary <b>iWrite page:</b> here is a space for writing and self editing. It is worth
+							mentioning that, unlike the common checkers, this page SOLELY hints the errors in writing
+							without correcting them. This is an endeavor to keep the students' challenge to identify the
+							type of errors she/he makes and edit them by themselves. <b>iWordfinder:</b> a simplified
+							wordfinder dictionary that helps the student to check out the meaning and the spelling of
+							words. According to, this may aid in widening students knowledge of vocabulary and the
+							proper way of using it.</p>
+						<a href="https://github.com/berhab-zakarya/Berhab-Zakarya-Portfolio" target="_blank"
+							class="button round btn">View App</a>
+
+					</div>
 				</div>
+			</div>
+			<hr>
+			<div class="row work-row"><!-- even slide 4 -->
+				<div class="small-12 medium-6 columns">
+					<div class="slideshow-container">
+
+						<div class="mySlides4 fade">
+							<div class="numbertext">1 / 3</div>
+							<img src="./assets/images/like4follows.jpg" style="width:100% ;
+						  height: 500px;
+						  object-fit: contain;">
+						</div>
+						<div class="mySlides4 fade">
+							<div class="numbertext">2 / 3</div>
+							<img src="./assets/images/like4follows1.jpg" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;
+						">
+						</div>
+						<div class="mySlides4 fade">
+							<div class="numbertext">3 / 3</div>
+							<img src="./assets/images/like4follows2.jpg" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;
+						">
+						</div>
+						<a class="prev" onclick="plusSlides4(-1)">❮</a>
+						<a class="next" onclick="plusSlides4(1)">❯</a>
+					</div>
+					<br>
+					<div style="text-align:center">
+						<span class="dot4" onclick="currentSlide4(1)"></span>
+						<span class="dot4" onclick="currentSlide4(2)"></span>
+						<span class="dot4" onclick="currentSlide4(3)"></span>
+
+
+					</div>
+
+
+				</div>
+				<div class="small-12 medium-5 medium-offset-1 columns">
+					<div class="details details-ftm">
+						<h3>Like4follows App</h3>
+						<p class="platform">TECHNOLGIES : MVVM, JAVA, ANDROID FIREBASE, API'S, ANDROID SDK , XML</p>
+						<p class="icons"><i class="fi-mobile"></i></p>
+						<p>A social media marketing service that is great if you are trying to find the best automatic
+							Instagram likes in the industry.
+
+							👉 Get Automatic Likes
+
+							They can help you with boosting your social media in general, because they have an excellent
+							network of people in the industry that can help you promote your Instagram profile
+							automatically, and this includes finding the best automatic likes that are going to make all
+							the difference to your account</p>
+						<a href="https://play.google.com/store/apps/details?id=com.likeforfollows.app" target="_blank"
+							class="button round btn">View App</a>
+
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row work-row"> <!-- odd slider 5-->
+				<div class="small-12 medium-6 medium-push-6 columns">
+					<div class="slideshow-container">
+
+						<div class="mySlides5 fade">
+							<div class="numbertext">1 / 1</div>
+							<img src="./assets/images/Bottomsheet.png" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;">
+						</div>
+
+
+						<a class="prev" onclick="plusSlides5(-1)">❮</a>
+						<a class="next" onclick="plusSlides5(1)">❯</a>
+					</div>
+					<br>
+
+					<div style="text-align:center">
+						<span class="dot5" onclick="currentSlide5(1)"></span>
+
+					</div>
+
+				</div>
+				<div class="small-12 medium-5 medium-pull-7 columns">
+					<div class="details details-ftm">
+						<h3>Bottomsheet Stylize </h3>
+						<p class="platform">Technolgies : MVVM, Java, Android Firebase, API's, Android SDK , Xml</p>
+						<p class="icons"><i
+								class="fi-mobile"></i><!--<i class="fi-tablet-portrait"></i><i class="fi-mobile"></i>-->
+						</p>
+						<p>It is a component that displays over the screen. It is used to expose more data or
+							information, menus, deep linked content, and in place of dialogs.</p>
+						<a href="https://github.com/berhab-zakarya/bottomsheetandroid" target="_blank"
+							class="button round btn">View App</a>
+
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row work-row"><!-- even slide 6 -->
+				<div class="small-12 medium-6 columns">
+					<div class="slideshow-container">
+
+						<div class="mySlides6 fade">
+							<div class="numbertext">1 / 8</div>
+							<img src="./assets/images/face.png" style="width:100% ;
+						  height: 500px;
+						  object-fit: contain;">
+						</div>
+						<div class="mySlides6 fade">
+							<div class="numbertext">2 / 8</div>
+							<img src="./assets/images/face1.jpg" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;
+						">
+						</div>
+						<div class="mySlides6 fade">
+							<div class="numbertext">3 / 8</div>
+							<img src="./assets/images/face3.jpg" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;
+						">
+						</div>
+						<div class="mySlides6 fade">
+							<div class="numbertext">4 / 8</div>
+							<img src="./assets/images/face4.jpg" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;
+						">
+						</div>
+						<div class="mySlides6 fade">
+							<div class="numbertext">5 / 8</div>
+							<img src="./assets/images/face5.jpg" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;
+						">
+						</div>
+						<div class="mySlides6 fade">
+							<div class="numbertext">6 / 8</div>
+							<img src="./assets/images/face6.jpg" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;
+						">
+						</div>
+						<div class="mySlides6 fade">
+							<div class="numbertext">7 / 8</div>
+							<img src="./assets/images/face7.jpg" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;
+						">
+						</div>
+						<div class="mySlides6 fade">
+							<div class="numbertext">8 / 8</div>
+							<img src="./assets/images/face8.jpg" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;
+						">
+						</div>
+						<a class="prev" onclick="plusSlides6(-1)">❮</a>
+						<a class="next" onclick="plusSlides6(1)">❯</a>
+					</div>
+					<br>
+					<div style="text-align:center">
+						<span class="dot6" onclick="currentSlide6(1)"></span>
+						<span class="dot6" onclick="currentSlide6(2)"></span>
+						<span class="dot6" onclick="currentSlide6(3)"></span>
+
+
+					</div>
+
+
+				</div>
+				<div class="small-12 medium-5 medium-offset-1 columns">
+					<div class="details details-ftm">
+						<h3>Face Recognition App</h3>
+						<p class="platform">TECHNOLGIES : MVVM, JAVA, ANDROID FIREBASE, API'S, ANDROID SDK , XML</p>
+						<p class="icons"><i class="fi-mobile"></i></p>
+						<p>A special application for the student and supervisor for a customer.
+
+							The application takes a photo of the student with the camera and compares it with photos of the students’ faces in Cloud Firebase Storage
+							
+							The name of the photo is taken in the form of an ID to be stored in the database indicating that the class was blocked. Firebase Realtime Database
+							
+							Faisal sends the notification to the supervisor and verifies daily attendance.</p>
+						<a href="https://mostaql.com/portfolio/1238976-face-recognition" target="_blank"
+							class="button round btn">View App</a>
+
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row work-row"> <!-- odd slider 7-->
+				<div class="small-12 medium-6 medium-push-6 columns">
+					<div class="slideshow-container">
+
+						<div class="mySlides7 fade">
+							<div class="numbertext">1 / 9</div>
+							<img src="./assets/images/store.png" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;">
+						</div>
+						<div class="mySlides7 fade">
+							<div class="numbertext">2 / 9</div>
+							<img src="./assets/images/store1.png" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;">
+						</div>
+						<div class="mySlides7 fade">
+							<div class="numbertext">3 / 9</div>
+							<img src="./assets/images/store2.png" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;">
+						</div>
+						<div class="mySlides7 fade">
+							<div class="numbertext">4 / 9</div>
+							<img src="./assets/images/store3.png" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;">
+						</div>
+						<div class="mySlides7 fade">
+							<div class="numbertext">5 / 9</div>
+							<img src="./assets/images/store6.png" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;">
+						</div>
+						<div class="mySlides7 fade">
+							<div class="numbertext">6 / 9</div>
+							<img src="./assets/images/store7.png" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;">
+						</div>
+						<div class="mySlides7 fade">
+							<div class="numbertext">7 / 9</div>
+							<img src="./assets/images/store8.png" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;">
+						</div>
+						<div class="mySlides7 fade">
+							<div class="numbertext">8 / 9</div>
+							<img src="./assets/images/store9.png" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;">
+						</div>
+						<div class="mySlides7 fade">
+							<div class="numbertext">9 / 9</div>
+							<img src="./assets/images/store10.png" style=" width: 100%;
+						  height: 500px;
+						  object-fit: contain;">
+						</div>
+
+
+						<a class="prev" onclick="plusSlides7(-1)">❮</a>
+						<a class="next" onclick="plusSlides7(1)">❯</a>
+					</div>
+					<br>
+
+					<div style="text-align:center">
+						<span class="dot7" onclick="currentSlide7(1)"></span>
+						<span class="dot7" onclick="currentSlide7(2)"></span>
+						<span class="dot7" onclick="currentSlide7(3)"></span>
+						<span class="dot7" onclick="currentSlide7(4)"></span>
+						<span class="dot7" onclick="currentSlide7(5)"></span>
+						<span class="dot7" onclick="currentSlide7(6)"></span>
+						<span class="dot7" onclick="currentSlide7(7)"></span>
+						<span class="dot7" onclick="currentSlide7(8)"></span>
+						<span class="dot7" onclick="currentSlide7(9)"></span>
+
+					</div>
+
+				</div>
+				<div class="small-12 medium-5 medium-pull-7 columns">
+					<div class="details details-ftm">
+						<h3>Store DZ</h3>
+						<p class="platform">Technolgies : MVVM, Java, Android Firebase, API's, Android SDK , Xml</p>
+						<p class="icons"><i
+								class="fi-mobile"></i><!--<i class="fi-tablet-portrait"></i><i class="fi-mobile"></i>-->
+						</p>
+						<p>A Store DZ is an app where buyers can see a catalog of products or services and make electronic purchases.</p>
+						<a href="https://github.com/berhabzakarya/StoreDZ" target="_blank"
+							class="button round btn">View App</a>
+
+					</div>
 				</div>
 			</div>
 		</section>
-
-		
 		<section id="footer-cta">
 			<h2 class="text-center">Wanna work with me?</h2>
 			<p></p>
@@ -181,36 +823,30 @@
 		<footer id="footer">
 			<div class="row text-center">
 				<div class="small-12 medium-6 medium-offset-3 columns">
-					<p id="logo">AZ</p>
-					<p id="copyright">Copyright &copy; 2023 | Abdulaziz Qadmor</p>
+					<p id="logo">BZ</p>
+					<p id="copyright">Copyright &copy; 2023 | Berhab Zakarya</p>
 				</div>
 			</div>
 		</footer>
-
-
-
 	</div>
-	
 	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-	
-
 	<script>
-        var vm = new Vue({
-            el: "#app",
-            data: {
-				name: "	Abdulaziz Qadmor",
-				image: "background-image: url(assets/images/profile.jpg);",
-				email: "mailto:azizqadmor@gmail.com",
-				Linked: "https://www.linkedin.com/in/abdulaziz-qadmor-51384415a/",
-				github: "https://github.com/azeezqad",
-				StackoverFlow: "https://stackoverflow.com/users/12937086/abdulaziz-noredin-qadmor"
+		var vm = new Vue({
+			el: "#app",
+			data: {
+				name: "Berhab Zakarya",
+				image: "background-image: url(assets/images/92124316.png);",
+				email: "mailto:zakarya.berhab@univ-tlemcen.dz",
+				Linked: "https://www.linkedin.com/in/berhab-zakarya/",
+				github: "https://github.com/berhab-zakarya/Berhab-Zakarya-Portfolio",
+				facebook: "https://www.facebook.com/berhab.zakarya.5",
+				instagram: "https://www.instagram.com/iosonozakaryaberhab/"
 
-			
+
 			}
-               
-        });
+
+		});
 	</script>
 	<script src="assets/scripts/app.js" charset="utf-8"></script>
 </body>
-
 </html>
